@@ -1,0 +1,133 @@
+.div1{
+    background-image: url(https://images.unsplash.com/photo-1707343848552-893e05dba6ac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.p1{
+    height: 60vh;
+    width: 40vw;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.h1{
+  font-size: 70px;
+  color: white;
+}
+.lorem{
+    position: relative;
+    top: 20px;
+}
+.button{
+    position: relative;
+    top: 50px;
+}
+.div2{
+    height: 80vh;
+    width: 100vw;
+}
+.h2{
+    position: relative;
+    top: 50px;
+    left: 260px;
+    height: 20vh;
+    width: 40vw; 
+}
+.img1,.img2,.img3{
+    height:300px;
+    width:300px;
+    border: 2px solid rgb(197, 166, 225);
+    border-radius: 3px;
+    display:flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    
+}
+
+.div3 {
+    background-color: rgb(134, 77, 187);
+    height: 50vh;
+    width: 100vw;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+   
+    
+}
+
+.p2, .p3, .p4, .p5 {
+    height:200px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 30px;
+    color: rgb(181, 194, 194);
+    cursor: pointer;
+}
+.c{
+    color:white;
+    text-decoration:underline;
+}
+.copy {
+    margin-top:1px ;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(181, 194, 194);
+}
+#ul{
+    margin-right: 200px;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width:768px) {
+    .p1{
+        height: 60vh;
+        width: 40vw;
+        position: relative;
+        top: 60px;
+        left: 200px;
+    }
+    .button{
+        position: relative;
+        top: 20px;
+    }
+    .div2{
+        height: 180vh;
+        width: 100vw;
+    }
+    
+    .h2{
+        position: relative;
+        top: 50px;
+        left: 100px;
+        height: 20vh;
+        width: 70vw; 
+    }
+    
+    .div3{
+        height: 144vh;
+        width: 100vw;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
