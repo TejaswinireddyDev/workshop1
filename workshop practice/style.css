@@ -99,15 +99,17 @@ body{
 
 @media screen and (max-width:768px) {
     .div1{
-        height: 100vh;
+        height: 120vh;
         width: 100vw;
+        background-size:cover;
     }
     .p1{
-        height: 60vh;
-        width: 40vw;
+        height: 600px;
+        width: 200px;
         position: relative;
-        top: 60px;
-        left: 90px;
+        top: 200px;
+        left: 70px;
+        
     }
     .button{
         position: relative;
@@ -129,9 +131,6 @@ body{
     .div3{
         height: 144vh;
         width: 100vw;
-    }
-    body{
-        overflow-x: hidden;
     }
 }
 
